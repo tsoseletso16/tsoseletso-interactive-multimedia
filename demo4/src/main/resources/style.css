@@ -1,0 +1,26 @@
+.root {
+    -fx-font-family: Arial, sans-serif;
+}
+
+.flow-pane > .image-view {
+    -fx-effect: drop shadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-border-color:black;
+    -fx-border-width:2px;
+    -fx-border-radius:10px;
+}
+
+.image-view:hover {
+    -fx-effect: drop shadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+
+}
+
+.button:hover {
+    -fx-background-color: lime;
+}
